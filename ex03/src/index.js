@@ -11,11 +11,11 @@ function function2(){
 
     var result = "";
 
-    if(typeof myGlobalVariable != "undefined"){
+    if (typeof myGlobalVariable != "undefined") {
         result += "myGlobalVariable: " + myGlobalVariable; 
     }
 
-    if(typeof notGlobalVariable != "undefined"){
+    if (typeof notGlobalVariable != "undefined") {
         result += " notGlobalVariable: " + notGlobalVariable; 
     }
 
